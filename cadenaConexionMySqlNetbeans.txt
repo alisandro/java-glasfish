@@ -1,0 +1,10 @@
+﻿me funcione linux
+jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull&useSSL=false&useTimezone=true&serverTimezone=UTC
+funciono en mac y windows
+En algunos casos deben agregar lo siguiente también:
+jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull&useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
+me funciono wn windows10 8 linux y mac
+version 5.113
+jdbc:mysql://localhost/db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+instalacion de glasfish (ubicacion)
+C:\AppServers\glassfish-5.0\glassfish5\glassfish\lib
